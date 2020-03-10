@@ -1,0 +1,2 @@
+node读取文件
+hello world
