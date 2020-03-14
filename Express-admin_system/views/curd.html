@@ -107,8 +107,8 @@
                         <td>{{ $value.sex }}</td>
                         <td>{{ $value.grade }}</td>
                         <td>{{ $value.subject }}</td>
-                        <td><a class="btn btn-outline-dark btn-sm" href="/change?key={{ $value.key }}">修改</a></td>
-                        <td><a class="btn btn-outline-danger btn-sm" href="/delete?key={{ $value.key }}">删除</a></td>
+                        <td><a class="btn btn-outline-dark btn-sm" href="/change?key={{ $value._id }}">修改</a></td>
+                        <td><a class="btn btn-outline-danger btn-sm" href="/delete?key={{ $value._id }}">删除</a></td>
                     </tr>
                     {{/each}}
                     </tbody>
